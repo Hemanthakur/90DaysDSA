@@ -5,8 +5,6 @@ import java.util.Arrays;
 public class KthMinElement {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		int [] nums= {1,5,6,7,3,9,2};
 		int k=4;
 		System.out.println("kth Smallest element is: "+find(nums,k));
