@@ -14,6 +14,7 @@ public class KthMinElement {
 		Arrays.sort(nums);
 		no=nums[k-1];
 		return no;
+		
 	}
 
 }
