@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class SearchSorted {
 	static int find(int[] arr, int n, int f) {
-		int ans = 0;
 		int low = 0, high = n - 1;
 		int m = 0;
 		while (low <= high) {
@@ -36,6 +35,7 @@ public class SearchSorted {
 		int f = sc.nextInt();
 		int n = arr.length;
 		System.out.println(find(arr, n, f));
+		sc.close();
 	}
 
 }
