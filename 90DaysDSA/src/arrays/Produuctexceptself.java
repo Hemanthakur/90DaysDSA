@@ -1,9 +1,11 @@
 package arrays;
 
+import java.util.Arrays;
+
 public class Produuctexceptself {
 	
-	static void product(int[]nums) {
-		if(nums.length==0||nums==null)return;
+	static int [] product(int[]nums) {
+		if(nums.length==0||nums==null)return new int[0];
 		
 		int rp=1;
 		int res[]=new int[nums.length];
@@ -17,17 +19,14 @@ public class Produuctexceptself {
 			res[i]=res[i]*rp;
 			rp=rp*nums[i];
 		}
-		for(int i:res) {
-			System.out.print(i+" ");
-		}
-		//return res;
+		return res;
 	}
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int nums[]= {1,2,3,4};
-		product(nums);
-//		System.out.println(product(nums));
+
+	System.out.println(Arrays.toString(product(nums)));
 	}
 
 }
