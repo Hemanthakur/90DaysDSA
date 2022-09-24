@@ -26,8 +26,8 @@ public class KthMaxElement {
 		return pq.poll();
 	}
 	public static void main(String[] args) {
-		int [] nums= {8,7,6,5,4,1,2,3};
-		int k=4;
+		int [] nums= {7,10,4,3,20,15};
+		int k=3;
 	System.out.println("kth max element:"+find(nums,k));
 	System.out.println("kth min element:"+findmin(nums,k));
 	}
