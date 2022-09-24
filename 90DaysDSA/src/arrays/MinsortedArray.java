@@ -12,7 +12,6 @@ public class MinsortedArray {
 		// TODO Auto-generated method stub
 		int nums[]= {3,4,5,1,2};
 		System.out.println(findMin(nums));
-
 	}
 
 }
