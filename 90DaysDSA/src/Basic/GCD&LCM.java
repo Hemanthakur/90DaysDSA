@@ -1,5 +1,5 @@
 import java.util.*;
-//Brute Force
+// Optimize
 public class MyClass {
     public static void main(String args[]) {
         Scanner scn = new Scanner(System.in);
