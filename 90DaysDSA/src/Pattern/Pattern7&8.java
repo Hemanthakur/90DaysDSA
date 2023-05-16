@@ -8,7 +8,7 @@ public class MyClass {
         for(int i=1;i<=n;i++)
         {
             for(int j=1;j<=n;j++)
-            {if(i==j){
+            {if(i==j){                      //For 8 if(i+j==n+1)
                 System.out.print("* ");
                 }
                 else{
@@ -20,12 +20,21 @@ public class MyClass {
     }
 }
 
-/* Output -:
-*         
+/* Output 7 -:    
+*                                                   
   *       
     *     
       *   
+        *
+ Output8 -:
         * 
+      *   
+    *     
+  *       
+*         
+
+        
+        
 */
 
 
